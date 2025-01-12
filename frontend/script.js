@@ -137,3 +137,10 @@ document.getElementById('contactForm').addEventListener('submit', async (e) => {
         alert('An error occurred while sending the message.');
     }
 });
+
+document.getElementById("downloadcv").addEventListener("click", function () {
+    const link = document.createElement("a");
+    link.href = "C:\Users\agraw\portfolio\CV.pdf";
+    link.download = "CV.pdf";
+    link.click();
+  });
