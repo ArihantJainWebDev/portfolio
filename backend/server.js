@@ -4,9 +4,13 @@ const cors = require('cors');
 const nodemailer = require('nodemailer');
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
-app.use(cors());
+const allowedOrigins = ['https://portfolio-q8u1.onrender.com'];
+
+app.use(cors({
+  origin: allowedOrigins,
+}));
 app.use(bodyParser.json());
 
 app.post('/api/contact', async (req, res) => {
@@ -19,7 +23,7 @@ app.post('/api/contact', async (req, res) => {
             service: 'gmail',
             auth: {
                 user: 'arihantjainwebdev@gmail.com',
-                pass: 'bylv tnnn ubwg vcsi',
+                pass: process.env.GMAIL_PASSWORD,
             },
         });
 
@@ -36,10 +40,7 @@ app.post('/api/contact', async (req, res) => {
     } catch (error) {
         console.error('Error sending email:', error);
         res.status(500).json({ message: 'Failed to send message.' });
-        return;
     }
-
-    res.status(200).json({ message: 'Form data received successfully!' });
 });
 
 app.listen(PORT, () => {
