@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="assets/favicon.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nabv-logo">
+                <p class="nav-name">
+                    <span>Arihant.</span>
+                </p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Arihant Jain</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm a <span class="typedText">Web Developer</span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Hi, I'm Arihant Jain, a passionate web developer. I love to create websites and web
+                            applications. I'm a quick learner and always ready to learn new technologies.</p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn" onclick="location.href='#contact'">Hire Me <i
+                                class="uil uil-message"></i></button>
+                        <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/arihant-jain-411939337" target="_blank">
+                            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                        </a>
+                        <a href="https://github.com/ArihantJainWebDev" target="_blank">
+                            <div class="icon"><i class="uil uil-github-alt"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="assets/avatar.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+            </section>
+
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My Introduction</h3>
+                            <p>👋 Hi, I’m Arihant Jain, a passionate web developer and B.Tech CS-AI student at Medicaps University, Indore. I specialize in creating responsive, user-centric web applications using HTML, CSS, JavaScript, React, Node.js, and MongoDB.</p>
+
+                            <p> With projects like a car rental site with advanced styling, a Gemini clone with typing animations, and a virtualR demo website with dynamic UI, I’ve honed my skills in Redux, TailwindCSS, GitHub, and Postman. I’m driven by a love for learning and creating, aiming to deliver clean, efficient, and innovative solutions.</p>
+                                
+                            <p>Let’s create something amazing together! 🚀</p>
+                            <div class="about-btn">
+                                <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col skills-container">
+                        <div class="skill-box1">
+                            <div class="skills-box">
+                                <div class="skills-header">
+                                    <h3>Frontend</h3>
+                                </div>
+                                <div class="skills-list">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>TailwindCSS</span>
+                                    <span>React</span>
+                                </div>
+                            </div>
+                            <div class="skills-box">
+                                <div class="skills-header">
+                                    <h3>Backend</h3>
+                                </div>
+                                <div class="skills-list">
+                                    <span>Nodejs</span>
+                                    <span>Expressjs</span>
+                                </div>
+                            </div>
+                            <div class="skills-box">
+                                <div class="skills-header">
+                                    <h3>Database</h3>
+                                </div>
+                                <div class="skills-list">
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-box2">
+                            <div class="skills-box">
+                                <div class="skills-header">
+                                    <h3>Tools & Technologies</h3>
+                                </div>
+                                <div class="skills-list">
+                                    <span>Mongoose</span>
+                                    <span>Redux</span>
+                                    <span>GitHub</span>
+                                    <span>Postman</span>
+                                    <span>Render (for hosting)</span>
+                                    <span>MongoDB Atlas/Compass</span>
+                                    <span>VS Code</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-card" onclick="openOverlay('project1')">
+                        <div class="project-image">
+                            <img src="assets/project-img/carrentalss.png">
+                        </div>
+                        <div class="project-text">
+                            <h2><i class="uil uil-book-open"></i> Car Rental Site</h2>
+                            <p>A sleek and modern web application built using HTML, CSS, and JavaScript, following a
+                                tutorial by CarpoolVenom on YouTube</p>
+                            <span>Click here to see more...</span>
+                        </div>
+                    </div>
+                    <div id="overlay-project1" class="overlay">
+                        <div class="overlay-content">
+                            <span class="close-btn" onclick="closeOverlay('project1')"><i
+                                    class="uil uil-times-circle"></i></span>
+                            <h2>Car Rental Site</h2>
+                            <p> A sleek and modern web application built using HTML, CSS, and JavaScript. The site
+                                features dynamic content with smooth scroll reveal animations, soft transition effects,
+                                and a custom scrollbar for enhanced user experience. It offers a responsive design and
+                                interactive elements, showcasing functionalities like location search, date selection,
+                                and car rental options.</p>
+                            <div class="overlay-card-btns">
+                                <div>
+                                    <button
+                                        onclick="window.open('https://carrentalwebsite-1.onrender.com', '_blank')"><i
+                                            class="uil uil-eye"></i></button>
+                                    <span>Live Preview</span>
+                                </div>
+                                <div>
+                                    <button
+                                        onclick="window.open('https://github.com/ArihantJainWebDev/CarRentalWebsite.git', '_blank')"><i
+                                            class="uil uil-brackets-curly"></i></button>
+                                    <span>Source Code</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" onclick="openOverlay('project2')">
+                        <div class="project-image">
+                            <img src="assets/project-img/weatherdashboardss.png">
+                        </div>
+                        <div class="project-text">
+                            <h2><i class="uil uil-book-open"></i> Weather Dashboard</h2>
+                            <p>A real time weather Dashboard built using HTML, CSS, and JavaScript by integrating
+                                OpenWeatherAPI, following a tutorial by CodingNepal on Youtube</p>
+                            <span>Click here to see more...</span>
+                        </div>
+                    </div>
+                    <div id="overlay-project2" class="overlay">
+                        <div class="overlay-content">
+                            <span class="close-btn" onclick="closeOverlay('project2')"><i
+                                    class="uil uil-times-circle"></i></span>
+                            <h2>Weather Dashboard</h2>
+                            <p>A real-time Weather Dashboard created using HTML, CSS, and JavaScript, integrated with
+                                the OpenWeatherAPI for accurate data retrieval. Developed by following a tutorial from
+                                CodingNepal on YouTube, this project features an intuitive interface and responsive
+                                design for seamless user interaction.</p>
+                            <div class="overlay-card-btns">
+                                <div>
+                                    <button onclick="window.open('https://weatherapp-qpxk.onrender.com', '_blank')"><i
+                                            class="uil uil-eye"></i></button>
+                                    <span>Live Preview</span>
+                                </div>
+                                <div>
+                                    <button
+                                        onclick="window.open('https://github.com/ArihantJainWebDev/WeatherAPP.git', '_blank')"><i
+                                            class="uil uil-brackets-curly"></i></button>
+                                    <span>Source Code</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" onclick="openOverlay('project3')">
+                        <div class="project-image">
+                            <img src="assets/project-img/homesmartss.png">
+                        </div>
+                        <div class="project-text">
+                            <h2><i class="uil uil-book-open"></i> HomeSmart</h2>
+                            <p>A fully responsive landing page designed using the modern CSS framework
+                                'TailwindCSS,'
+                                created by following a tutorial from Coding In Public on YouTube.</p>
+                            <span>Click here to see more...</span>
+                        </div>
+                    </div>
+                    <div id="overlay-project3" class="overlay">
+                        <div class="overlay-content">
+                            <span class="close-btn" onclick="closeOverlay('project3')"><i
+                                    class="uil uil-times-circle"></i></span>
+                            <h2>HomeSmart</h2>
+                            <p>A fully responsive landing page built entirely with TailwindCSS, featuring dynamic,
+                                movable elements that adapt seamlessly to any screen size. Designed for optimal
+                                usability and aesthetics, this project was developed following a tutorial by Coding In
+                                Public on YouTube</p>
+                            <div class="overlay-card-btns">
+                                <div>
+                                    <button onclick="window.open('https://homesmart.onrender.com', '_blank')"><i
+                                            class="uil uil-eye"></i></button>
+                                    <span>Live Preview</span>
+                                </div>
+                                <div>
+                                    <button
+                                        onclick="window.open('https://github.com/ArihantJainWebDev/HomeSmart.git', '_blank')"><i
+                                            class="uil uil-brackets-curly"></i></button>
+                                    <span>Source Code</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" onclick="openOverlay('project4')">
+                        <div class="project-image">
+                            <img src="assets/project-img/virtualrss.png">
+                        </div>
+                        <div class="project-text">
+                            <h2><i class="uil uil-book-open"></i> VirtualR</h2>
+                            <p>A modern UI website developed using TailwindCSS and React, created by following a
+                                tutorial from CompileTab on YouTube.</p>
+                            <span>Click here to see more...</span>
+                        </div>
+                    </div>
+                    <div id="overlay-project4" class="overlay">
+                        <div class="overlay-content">
+                            <span class="close-btn" onclick="closeOverlay('project4')"><i
+                                    class="uil uil-times-circle"></i></span>
+                            <h2>VirtualR</h2>
+                            <p>VirtualR is a modern UI website crafted using the powerful combination of TailwindCSS and
+                                React. This project features advanced styling techniques, creating a seamless and
+                                visually engaging design tailored for a dynamic user experience. Following a
+                                comprehensive tutorial by CompileTab on YouTube, VirtualR showcases a blend of
+                                responsive layouts and cutting-edge UI elements.</p>
+                            <div class="overlay-card-btns">
+                                <div>
+                                    <button onclick="window.open('https://virtualr-sepd.onrender.com', '_blank')"><i
+                                            class="uil uil-eye"></i></button>
+                                    <span>Live Preview</span>
+                                </div>
+                                <div>
+                                    <button
+                                        onclick="window.open('https://github.com/ArihantJainWebDev/VirtualR.git', '_blank')"><i
+                                            class="uil uil-brackets-curly"></i></button>
+                                    <span>Source Code</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" onclick="openOverlay('project5')">
+                        <div class="project-image">
+                            <img src="assets/project-img/geminicloness.png">
+                        </div>
+                        <div class="project-text">
+                            <h2><i class="uil uil-book-open"></i> GeminiClone</h2>
+                            <p>
+                                A Gemini clone built with React and CSS, featuring typing animations, a "New Chat"
+                                button, and a searchable history, showcasing advanced skills in UI design and API
+                                integration.</p>
+                            <span>Click here to see more...</span>
+                        </div>
+                    </div>
+                    <div id="overlay-project5" class="overlay">
+                        <div class="overlay-content">
+                            <span class="close-btn" onclick="closeOverlay('project5')"><i
+                                    class="uil uil-times-circle"></i></span>
+                            <h2>GeminiClone</h2>
+                            <p>The Gemini clone is an advanced project developed using React and CSS, designed to
+                                replicate a functional chatbot interface. It includes dynamic typing animations for a
+                                realistic conversational feel, a "New Chat" button to reset and start fresh
+                                interactions, and a comprehensive search history where every query is saved for easy
+                                reference. This project demonstrates expertise in building interactive UIs, integrating
+                                APIs, and implementing state management for smooth functionality.</p>
+                            <div class="overlay-card-btns">
+                                <div>
+                                    <button onclick="window.open('https://geminiclone-yp80.onrender.com', '_blank')"><i
+                                            class="uil uil-eye"></i></button>
+                                    <span>Live Preview</span>
+                                </div>
+                                <div>
+                                    <button
+                                        onclick="window.open('https://github.com/ArihantJainWebDev/GeminiClone.git', '_blank')"><i
+                                            class="uil uil-brackets-curly"></i></button>
+                                    <span>Source Code</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" onclick="openOverlay('project6')">
+                        <div class="project-image">
+                            <img src="">
+                        </div>
+                        <div class="project-text">
+                            <h2><i class="uil uil-book-open"></i> NotesAPP</h2>
+                            <p>
+                                MERN project, with authentication and all function needed in a NotesAPP, ruined because
+                                of constant errors in backend.
+                            </p>
+                            <span>Click here to see more...</span>
+                        </div>
+                    </div>
+                    <div id="overlay-project6" class="overlay">
+                        <div class="overlay-content">
+                            <span class="close-btn" onclick="closeOverlay('project6')"><i
+                                    class="uil uil-times-circle"></i></span>
+                            <h2>NotesAPP</h2>
+                            <p>Coming soon...
+                                i am stressed out with constant errors in backend APIs
+                                gonna create the backend again from the scratch.
+                            </p>
+                            <div class="overlay-card-btns">
+                                <div>
+                                    <button onclick="window.open('/', '_blank')"><i class="uil uil-eye"></i></button>
+                                    <span>Live Preview</span>
+                                </div>
+                                <div>
+                                    <button onclick="window.open('/', '_blank')"><i
+                                            class="uil uil-brackets-curly"></i></button>
+                                    <span>Source Code</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get In Touch</h1>
+                    <span>Do you have a project in your mind, conatct me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: arihantjainwebdev@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> Phone: +91 8224954785</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form class="form-control" id="contactForm">
+                            <div class="form-inputs">
+                                <input type="text" id="name" class="input-field" placeholder="Name" required>
+                                <input type="email" id="email" class="input-field" placeholder="Email" required>
+                            </div>
+                            <div class="text-area">
+                                <textarea id="message" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn" type="submit">
+                                    Send Message <i class="uil uil-message"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="top-footer">
+                <p>Arihant Jain .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer-menu-list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a href="https://linkedin.com/in/arihant-jain-411939337" target="_blank">
+                    <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                </a>
+                <a href="https://github.com/ArihantJainWebDev" target="_blank">
+                    <div class="icon"><i class="uil uil-github-alt"></i></div>
+                </a>
+            </div>
+            <div class="bootom-footer">
+                <p>Copyright &copy; 2025 Arihant Jain - All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
