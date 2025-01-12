@@ -118,7 +118,7 @@ document.getElementById('contactForm').addEventListener('submit', async (e) => {
     };
 
     try {
-        const response = await fetch('https://portfolio-backend-5gji.onrender.com', {
+        const response = await fetch('https://portfolio-backend-5gji.onrender.com/api/contact', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
